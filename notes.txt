@@ -1,0 +1,3 @@
+*iron router added.
+
+*may need a non-home template. So you can fix the header and footer on each page. This does not apply to homepage. Look at this : http://stackoverflow.com/questions/28864942/meteor-use-2-different-layouts-ironrouter 
