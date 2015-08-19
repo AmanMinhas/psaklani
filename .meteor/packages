@@ -7,3 +7,5 @@
 meteor-platform
 iron:router
 email
+nemo64:bootstrap
+less

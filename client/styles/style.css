@@ -6,6 +6,28 @@
 }
 
 /*Navigation Start*/
+.navbar {
+	background-color: #443266;	
+}
+
+#my-nav-bar >li {
+	float: none;
+	background-color: #443266;
+}
+#my-nav-bar >li :hover {
+	background-color: #3B2F59;
+	color: #FFFFFF;
+}
+#my-nav-bar > li > a {
+	text-align: center;
+	vertical-align: middle;
+	color: #B5AEC5;
+}
+
+#my-nav-bar > li > .navbar-brand {
+	float: none;
+}
+/*
 .nav_container {
 	margin-top: -8px;
 	width: 100%;
@@ -25,7 +47,6 @@
 }
 
 .nav_li {
-	/*display: inline;*/
 	float: left;
 	width: 12.13%;
 	background-color: #443266;
@@ -42,7 +63,6 @@
 	display: block;
 	text-decoration: none;
 	color: #D5D0DD;
-	/*padding: 8px 8px 8px 8px;*/
 }
 
 .nav_a {
@@ -52,12 +72,12 @@
 	display: block;
 	text-decoration: none;
 	color: #B5AEC5;
-	/*padding: 8px 8px 8px 8px;*/
 }
 
 .nav_a:hover {
 	color: #FFFFFF;
 }
+*/
 /*Navigation End*/
 
 
