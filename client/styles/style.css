@@ -1,3 +1,35 @@
+/*Include Fonts*/
+@font-face {
+	font-family: DomineBoldFont,
+	src: url("/fonts/Domine-Bold.ttf");
+}
+@font-face {
+	font-family: DomineBoldFont,
+	src: url("/fonts/Domine-Bold.eot"); /* For stupid ID */
+}
+
+@font-face {
+	font-family: DomineRegularFont,
+	src: url("/fonts/Domine-Regular.ttf");
+}
+@font-face {
+	font-family: DomineRegularFont,
+	src: url("/fonts/Domine-Regular.eot"); /* For stupid ID */
+}
+/*End Include Fonts*/
+
+.clear {
+	clear: both;
+}
+
+hr.homepage_title_underline {
+	height: 1px;
+	margin-top: 3%;
+	border-top: 1px solid #D4CBCB;
+	margin-left: 49%;
+	margin-right: 49%;
+}
+
 .nonHomepageContainer {
 	height: 100%;
 	min-height: 100%;
@@ -12,21 +44,39 @@
 
 #my-nav-bar >li {
 	float: none;
-	background-color: #443266;
+	background-color: #443266 !important;
 }
-#my-nav-bar >li :hover {
+#my-nav-bar >li :hover , .dropdown-menu > li :hover{
 	background-color: #3B2F59;
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 }
-#my-nav-bar > li > a {
+
+#my-nav-bar > li > a , .dropdown-menu > li > a {
 	text-align: center;
 	vertical-align: middle;
 	color: #B5AEC5;
+	font-family: DomineRegularFont;
+	font-size: 16px;
+}
+
+.dropdown-menu, .dropdown-menu > li {
+	background-color: #443266;
+}
+
+#my-nav-bar li.dropdown.open {
+	background-color: #443266 !important;
 }
 
 #my-nav-bar > li > .navbar-brand {
 	float: none;
 }
+
+.nav_logo_img {
+	/*padding-top: 4%;*/
+	/*height: 35px;*/
+	/*width: 100px;*/
+}
+
 /*
 .nav_container {
 	margin-top: -8px;
@@ -139,4 +189,266 @@
 	margin-right: 2.5%;
 	text-align: center;
 }
+
+
+/*Homepage Style*/
+.homepage_1 {
+	width: 100%;
+	height: 100%;
+}
+.homepage_1_img_div {
+	width: 100%;
+	max-height: 50%;
+}
+.homepage_1_img {
+	/*height: 20%;*/
+	width: 100%;
+}
+
+/*Homepage Scroll Page 2*/
+.homepage_2 {
+	min-height: 800px;
+}
+
+/*Carousel*/
+#myCarousel {
+	width: 100%;
+	/*max-height: 600px;*/
+}
+
+.carousel_homepage_2_img {
+	width: 100%;
+	/*max-height: 600px;*/
+}
+/*
+.carousel-caption {
+	margin-bottom: 7%;
+}
+.carousel-caption-div {
+	/*background-color: #febfea;
+	background-color: rgba(251,239,234,0.82);
+	opacity: 82%;
+	min-height: 100px;
+}
+
+.carousel-caption-title {
+	text-decoration: none !important;
+	font-family: DomineBoldFont;
+	font-size: 42px;
+	color: #443266;
+	padding-top: 5%;
+}
+
+.carousel-caption-title:hover{
+	color: #FFFFFF;
+}
+
+.carousel-know-more-div {
+	margin-top: 10%;
+}
+.carousel-know-more-button {
+	border-radius: 30px;
+	background-color: rgba(251,239,234,0.82);
+
+}
+.carousel-caption-div {
+	margin-bottom: 11%;
+	background-color: rgba(251,239,234,0.82);
+	opacity: 82%;
+}
+.carousel-caption-div .carousel-caption-title {
+	text-decoration: none !important;
+	font-family: DomineBoldFont;
+	font-size: 42px;
+	color: #443266;
+	padding: 5%;
+}
+*/
+
+.carousel-caption-button {
+	margin-bottom: 11%;
+	background-color: rgba(251,239,234,0.82);
+	opacity: 82%;	
+	width: 65%;
+	border: none;
+}
+.carousel-caption-button a{
+	text-decoration: none !important;
+	font-family: DomineBoldFont;
+	font-size: 42px;
+	color: #443266;
+	padding: 5%;
+}
+
+.carousel-know-more-button {
+	margin-bottom: 6%;
+	border-radius: 30px;
+	width: 190px;
+	min-height: 50px;
+	background-color: rgba(251,239,234,0.82);
+	border: none;
+}
+.carousel-know-more-button a {
+	text-decoration: none !important;
+	font-family: DomineBoldFont;
+	font-size: 18px;
+	color: #443266;
+}
+.carousel-caption-title:hover,
+.carousel-know-more-button a:hover {
+	color: #FFFFFF;
+}
+
+/*Carousel Happy Clients*/
+#happyClientsCarousel {
+	/*min-height: 450px;*/
+	/*max-height: 500px;*/
+}
+
+@media screen and (min-device-width: 1800px) {
+	#happyClientsCarousel .carousel-inner {
+		margin-left: 12%;
+	}
+}
+
+#happyClientsCarousel .carousel-indicators {
+	bottom: -50px;
+	/*top: 50%;*/
+}
+
+#happyClientsCarousel .carousel-indicators li {
+	background-color: #B5AEC5;
+}
+
+#happyClientsCarousel .carousel-indicators .active {
+	background-color: #443266;
+}
+
+.carousel-content {
+	/*min-height: 550px;*/
+	display:flex;
+    align-items:center;
+}
+
+p.happy_client_message {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 32px;
+	color: #443266;
+	text-align: center;
+}
+
+p.happy_client_message_by {
+	text-align: center;
+	font-family: DomineRegularFont;
+	font-size: 30px;
+	color: #443266;
+}
+
+.happy_client_carousel_control {
+	background: none !important;
+}
+/*End Carousel Happy Clients*/
+
+/*End Carousel*/
+/*Page 2 Message*/
+.homepage_2_message_div {
+	min-height: 200px;
+	background-color: #443266;
+}
+.homepage_2_message {
+	line-height: 44px;
+	font-size: 28px;
+	font-family: DomineRegularFont;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 3%;
+}
+/*End Page 2 Message*/
+
+/*Homepage About Me*/
+.homepage_about_me_div {
+	min-height: 600px;
+}
+
+.homepage_about_me_heading {
+	margin-top: 4%;
+	text-align: center;
+	font-family: DomineBoldFont;
+	font-size: 30px;
+	color: #443266;
+}
+
+.homepage_about_me_body {
+	margin-top: 4%;
+}
+
+p.homepage_about_me_overview {
+	margin-top: 3%;
+	line-height: 32px;
+	font-family: DomineRegularFont;
+	font-size: 18px;
+	color: #443266;
+}
+
+a.homepage_about_me_know_more {
+	font-family: DomineBoldFont;
+	font-size: 18px;
+	color: #443266;
+}
+/*End Homepage About Me*/
+
+/*Homepage Happy Clients*/
+
+.homepage_happy_client_div {
+	min-height: 600px;
+	background: url("/img/homepage_images/home_happy_clients_bg.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.homepage_happy_client_heading {
+	padding-top: 3.5%;
+	text-align: center;
+	font-family: DomineBoldFont;
+	font-size: 30px;
+	color: #443266;
+}
+/*End Homepage Happy Client*/
+
+/*End Homepage Style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

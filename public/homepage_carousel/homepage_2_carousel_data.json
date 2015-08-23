@@ -1,0 +1,17 @@
+
+	{
+		"title" : "Title 1",
+		"image"	: "/img/homepage_images/services/slide1.png"
+	},
+	{
+		"title" : "Title 2",
+		"image"	: "/img/homepage_images/services/slide2.png"
+	},
+	{
+		"title" : "Title 3",
+		"image"	: "/img/homepage_images/services/slide3.png"
+	},
+	{
+		"title" : "Title 4",
+		"image"	: "/img/homepage_images/services/slide4.png"
+	}

@@ -1,0 +1,35 @@
+<template name = "carousel_homepage_happy_clients">
+	<div id="happyClientsCarousel" class="carousel slide" data-ride="carousel">
+
+        <div class="row">
+            <div class="col-xs-offset-3 col-xs-6">
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                	{{#each happyClientMessages}}
+                		{{> happy_client_message_items}}
+                	{{/each}}
+                </div>
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left happy_client_carousel_control" href="#happyClientsCarousel" data-slide="prev">
+            <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+            <img src="/img/arrows/arrow_left.png">
+        </a>
+        <a class="carousel-control right happy_client_carousel_control" href="#happyClientsCarousel" data-slide="next">
+            <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+            <img src="/img/arrows/arrow_right.png">
+        </a>
+
+        <!-- Carousel indicators -->
+        <div>
+        <ol class="carousel-indicators">
+            <li data-target="#happyClientsCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#happyClientsCarousel" data-slide-to="1"></li>
+            <li data-target="#happyClientsCarousel" data-slide-to="2"></li>
+            <li data-target="#happyClientsCarousel" data-slide-to="3"></li>
+            <li data-target="#happyClientsCarousel" data-slide-to="4"></li>
+        </ol>
+        </div>
+    </div>
+</template>

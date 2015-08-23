@@ -1,3 +1,21 @@
 <template name="home">
-	<h1>Home</h1>
+	<div class="homepage_1">
+		<div class = "homepage_1_img_div">
+			<img class = "homepage_1_img" src="/img/homepage_images/HOME_BANNER_Domine.png">
+		</div>
+		<div class = "homepage_1_nav_bottom">
+			{{> navigation}}
+		</div>
+	</div>
+	<div class="homepage_2">
+		{{> carousel_homepage_2}}
+		<div class = "homepage_2_message_div">
+			<p class = "homepage_2_message">
+				"Healing is not forcing the sun to shine<br>but letting go of that which block the light."
+			</p>
+		</div>
+		<div class = "clear"></div>
+	</div>
+	{{> homepage_about_me}}
+	{{> homepage_happy_clients}}
 </template>
