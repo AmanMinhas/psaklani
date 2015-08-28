@@ -1,12 +1,76 @@
 <template name = "footer">
-	<h1>This is Footer</h1>
-	<div class = "footer_container">
-		<div class = "footer_col">
-			<h1>Test</h1>
+
+	<div class = "row footer-row">
+
+		<div class = "col-xs-4">
+			<div class="footer-content">
+				<div class = "footer-title">
+					<p>Recent blog Post</p>
+				</div>
+				<div class = "row footer-recent-posts">
+					<div class = "recent-blog-thumbnail-div left">
+						<img class = "recent-blog-thumbnail" src = "/img/footer_images/dog.jpg">
+					</div>
+					<div class = "col-xs-7 recent-post-desc">
+						<p class = "recent-blog-title">Caring for your pet during the moonsoons</p>
+						<a href="#" class = "recent-blog-read-more">Read Article</a>
+					</div>
+				</div>
+				<div class = "recent-posts-nav">
+					<a>
+						<img class = "img-circle" src = "img/arrows/arrow_left.png" >
+					</a>
+					<a>
+						<img class = "img-circle" src = "img/arrows/arrow_right.png" >
+					</a>
+				</div>
+			</div>
 		</div>
-		<div class = "footer_col">
+		
+		<div class = "col-xs-4">
+			<div class="footer-content">
+				<div class = "footer-title">
+					<p>Get in touch:</p>
+				</div>
+				<div class = "footer-contact-card" >
+					<p>e: priyasaklani@gmail.com</p>
+					<p>t: +91 9920 313 294</p>
+				</div>
+				<div class = "req-session-btn">
+					<p><a href = "" >Request a Session</a></p>
+				</div>
+			</div>
 		</div>
-		<div class = "footer_col">
+
+		<div class = "col-xs-4">
+			<div class="footer-content">
+				<div class = "footer-title">
+					<p>Membership:</p>
+				</div>
+				<div class = "footer-membership-img-div">
+					<img src = "/img/footer_images/membership-icon.png" class = "membership-icon">
+				</div>
+			</div>
+		</div>	
+
+	</div>
+
+	<!-- {{> footerNav}} -->
+	<div class = "row footer-copyright-bar">
+		<div class = "col-xs-4 left copyright-bar-div copyright-bar-disclaimer-div">
+			<p><a href="">Disclaimer</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "">Privacy Policy</a></p>
+			<!-- <p><a href="">Disclaimer&nbsp;|&nbsp;Privacy Policy</a></p> -->
+		</div>
+		<div class = "col-xs-4 copyright-bar-div copyright-bar-copyright-div">
+			<p><a href="#">&copy; Priya Saklani 2015.</a></p>
+		</div>
+		<div class = "col-xs-4 right copyright-bar-div copyright-bar-social-div">
+			<div class = "footer-social-icon-div">
+				<a href= ""><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_Twitter.png" ></a>
+				<a href= ""><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_FB.png" ></a>
+				<a href= ""><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_Blog.png" ></a>
+				<a href= ""><img class = "right footer-social-icon" src = "/img/homepage_images/social-icons/Icon_LinkedIn.png" ></a>
+			</div>
 		</div>
 	</div>
 </template>

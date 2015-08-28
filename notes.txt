@@ -1,3 +1,20 @@
 *iron router added.
 
 *may need a non-home template. So you can fix the header and footer on each page. This does not apply to homepage. Look at this : http://stackoverflow.com/questions/28864942/meteor-use-2-different-layouts-ironrouter 
+
+*reduce the whitespace below about section
+
+*change the cararoul arrows on the services section
+
+*on the homepage - the menu should be on the bottom. And remove the border radius
+
+
+
+Questions for Arshaun :
+
+How can i set the navbar to the bottom.
+
+Make .carousel-caption-button 100%;
+
+marginal scroll on x axis
+

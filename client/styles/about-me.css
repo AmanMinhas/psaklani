@@ -1,0 +1,35 @@
+.about-me-wrapper {
+	padding-bottom: 5%;
+}
+
+.about-me-heading {
+	margin-top: 4%;
+	text-align: center;
+	font-family: DomineBoldFont;
+	font-size: 32px;
+	color: #443266;
+}
+
+.about-me-body {
+	margin-top: 4%;
+}
+
+.about-me-desc {
+	margin-top: 3%;
+	line-height: 34px;
+	font-family: DomineRegularFont;
+	font-size: 20px;
+	color: #443266;
+}
+
+.about-me-journey {
+	margin-top: 4%;
+}
+
+hr.about-me-separator {
+	height: 1px;
+	margin-top: 3%;
+	border-top: 1px solid #D4CBCB;
+	margin-left: 0%;
+	margin-right: 0%;
+}
