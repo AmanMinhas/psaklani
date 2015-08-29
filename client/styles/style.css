@@ -264,9 +264,10 @@ hr.homepage_title_underline {
 
 .carousel-caption-button {
 	margin-bottom: 11%;
+	margin-left: -100%;
+	width: 300%;
 	background-color: rgba(251,239,234,0.82);
 	opacity: 82%;	
-	width: 65%;
 	border: none;
 }
 .carousel-caption-button a{
@@ -274,7 +275,6 @@ hr.homepage_title_underline {
 	font-family: DomineBoldFont;
 	font-size: 42px;
 	color: #443266;
-	padding: 5%;
 }
 
 .carousel-know-more-button {
@@ -294,6 +294,10 @@ hr.homepage_title_underline {
 .carousel-caption-title:hover,
 .carousel-know-more-button a:hover {
 	color: #FFFFFF;
+}
+
+ol.carousel-indicators li, ol.carousel-indicators li.active {
+	margin-left: 10px;
 }
 
 /*Carousel Happy Clients*/
@@ -345,6 +349,10 @@ p.happy_client_message_by {
 
 .happy_client_carousel_control {
 	background: none !important;
+}
+
+.row-happy-clients-msg{
+	margin: 0px !important;
 }
 /*End Carousel Happy Clients*/
 
@@ -421,6 +429,7 @@ a.homepage_about_me_know_more {
 /* Footer Start */
 
 .footer-row {
+	margin:0px !important;
 	background-color: #443266;
 	min-height: 460px;
 }
@@ -555,6 +564,7 @@ a.homepage_about_me_know_more {
 
 /* new copyright bar */
 .footer-copyright-bar {
+	margin: 0px !important;
 	min-height: 60px;
 	background-color: #2d2343;
 }

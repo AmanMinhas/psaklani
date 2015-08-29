@@ -1,6 +1,5 @@
 
 /*Register Routes*/
-
 Router.route('/',{
 	template: 'home', // route "/" to template home.
 	layoutTemplate : 'homePageLayout' // layout template for the home page.
