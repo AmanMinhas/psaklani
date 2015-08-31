@@ -8,6 +8,7 @@
 
 *on the homepage - the menu should be on the bottom. And remove the border radius
 
+*Letter spacing 1xp for "healing .... "
 
 
 Questions for Arshaun :

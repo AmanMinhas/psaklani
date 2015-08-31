@@ -45,6 +45,15 @@ hr.homepage_title_underline {
 	margin-bottom: 0px;
 }
 
+.my-nav-brand {
+	padding: 0px 0px 0px 10px;
+	height: 100%;
+}
+
+#my-nav-bar {
+	float: none;
+}
+
 #my-nav-bar >li {
 	float: none;
 	background-color: #443266 !important;
@@ -78,6 +87,7 @@ hr.homepage_title_underline {
 }
 
 .nav_logo_img {
+	height: 100%;
 	/*padding-top: 4%;*/
 	/*height: 35px;*/
 	/*width: 100px;*/
@@ -264,10 +274,11 @@ hr.homepage_title_underline {
 
 .carousel-caption-button {
 	margin-bottom: 11%;
-	margin-left: -100%;
-	width: 300%;
+	/*margin-left: -100%;*/
+	/*width: 300%;*/
+	width: 70%;
 	background-color: rgba(251,239,234,0.82);
-	opacity: 82%;	
+	/*opacity: 82%;	*/
 	border: none;
 }
 .carousel-caption-button a{
@@ -300,6 +311,14 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
 	margin-left: 10px;
 }
 
+.glyphicon-chevron-left:before {
+    content: url("/img/arrows/arrow_left.png");
+}
+
+.glyphicon-chevron-right:before {
+    content: url("/img/arrows/arrow_right.png");
+}
+
 /*Carousel Happy Clients*/
 #happyClientsCarousel {
 	/*min-height: 450px;*/
@@ -313,7 +332,8 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
 }*/
 
 #happyClientsCarousel .carousel-indicators {
-	bottom: -50px;
+	bottom: -82px;
+	/*bottom: -50px;*/
 	/*top: 50%;*/
 }
 
@@ -349,8 +369,12 @@ p.happy_client_message_by {
 
 .happy_client_carousel_control {
 	background: none !important;
+	/*padding-top:50%;*/
 }
 
+.carousel-control-nav-image {
+	padding-top: 50%;
+}
 .row-happy-clients-msg{
 	margin: 0px !important;
 }
@@ -435,6 +459,7 @@ a.homepage_about_me_know_more {
 }
 
 .footer-content {
+	letter-spacing: 1.2px;
 	margin-top: 15%;
 	margin-left: 30%;
 } 
@@ -564,6 +589,7 @@ a.homepage_about_me_know_more {
 
 /* new copyright bar */
 .footer-copyright-bar {
+	letter-spacing: 1.2px;
 	margin: 0px !important;
 	min-height: 60px;
 	background-color: #2d2343;
