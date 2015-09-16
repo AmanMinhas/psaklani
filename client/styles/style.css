@@ -54,6 +54,10 @@ hr.homepage_title_underline {
 	float: none;
 }
 
+#my-nav-bar .active {
+	background-color: green;
+}
+
 #my-nav-bar >li {
 	float: none;
 	background-color: #443266 !important;

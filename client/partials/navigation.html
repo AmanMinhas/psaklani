@@ -1,6 +1,7 @@
 <template name="navigation">
     <!-- <nav role="navigation" class="navbar navbar-default"> -->
-	<nav role="navigation" class="navbar navbar-inverse navbar-fixed-bottom" id = "my-navbar-nav" >
+    <!-- <nav role="navigation" class="navbar navbar-inverse navbar-fixed-bottom" id = "my-navbar-nav" > -->
+	<nav role="navigation" class="navbar navbar-inverse" id = "my-navbar-nav" >
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -17,11 +18,11 @@
                 <!-- <li class = "brand_li">
                     <img class = "nav_logo_img" src="/img/PSaklani_Logo.png">
                 </li> -->
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">My Services</a></li>
-                <li><a href="#">Tribute to Cola</a></li>
-                <li><a href="#">Press</a></li>
+                <li class = "{{activeIfTemplateIs 'home' }}" ><a href="#">Home</a></li>
+                <li class = "{{activeIfTemplateIs 'about' }}"><a href="#">About</a></li>
+                <li class = "{{activeIfTemplateIs 'myServices' }}"><a href="#">My Services</a></li>
+                <li class = "{{activeIfTemplateIs 'tributeToCola' }}"><a href="#">Tribute to Cola</a></li>
+                <li class = "{{activeIfTemplateIs 'press' }}"><a href="#">Press</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Events & Workshop <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
