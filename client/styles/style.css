@@ -55,7 +55,12 @@ hr.homepage_title_underline {
 }
 
 #my-nav-bar .active {
-	background-color: green;
+	background-color: #3B2F59 !important;
+	color: #FFFFFF !important;
+}
+#my-nav-bar .active a {
+	background-color: transparent;
+	color: #FFFFFF !important;
 }
 
 #my-nav-bar >li {
@@ -82,8 +87,9 @@ hr.homepage_title_underline {
 	background-color: #443266;
 }
 
-#my-nav-bar li.dropdown.open {
-	background-color: #443266 !important;
+#my-nav-bar li.dropdown.open a {
+	background-color: #3B2F59 !important;
+	color: #FFFFFF;
 }
 
 #my-nav-bar > li > .navbar-brand {
