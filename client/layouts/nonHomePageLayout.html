@@ -1,7 +1,9 @@
 <template name = "nonHomePageLayout">
 	<div class = "nonHomepageContainer">
 		{{> navigation}}
-	        {{> yield}}
+			<div class = "yieldArea">
+	        	{{> yield}}
+			</div>
 	    {{> footer}}
 	</div>
 </template>

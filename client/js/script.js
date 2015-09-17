@@ -1,4 +1,3 @@
-
 Template.carousel_homepage_2.helpers({
 	json_homepage_2_carousel_data : function() {
 		

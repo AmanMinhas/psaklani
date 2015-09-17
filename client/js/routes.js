@@ -6,6 +6,7 @@ Router.route('/',{
 });
 Router.route('/about');
 Router.route('/contact');
+Router.route('/eventsandworkshop');
 
 /*Configure Layouts*/
 Router.configure({
