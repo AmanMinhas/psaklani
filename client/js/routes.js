@@ -6,6 +6,9 @@ Router.route('/',{
 });
 Router.route('/about');
 Router.route('/contact');
+Router.route('/services');
+Router.route('/press');
+Router.route('/tributetocola');
 Router.route('/eventsandworkshop');
 
 /*Configure Layouts*/
