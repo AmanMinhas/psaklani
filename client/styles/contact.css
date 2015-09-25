@@ -1,0 +1,41 @@
+
+.contactContainerRow1 {
+	height: 30%;
+	max-height: 30%;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	/*clear: both;*/
+	overflow: hidden;
+	position: relative;
+}
+
+.contactDetails {
+	float: left;
+	margin-left: 5%;
+}
+
+.contactQuoteContainer {
+	/*float: right;*/
+	height: 100%;
+	position: absolute;
+	padding-top: 3%;
+	padding-left: 2%;
+	border-left: thin solid #eeeeee;
+	margin-left: 25%;
+	margin-right: 5%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.horizontalDivision {
+	width:95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	text-align: center;
+}
+
+.emailFormContainer label{
+	display: none;
+}

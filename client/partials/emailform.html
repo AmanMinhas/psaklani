@@ -1,13 +1,37 @@
 <template name="emailform">
+	<div>
 	<h3>Leave a Message</h3>
 	<p>All (*) fields are necessary</p>
 	<!-- <form id="sendmailform"> -->
-	<form>
+	<!-- <form>
 		<input type = "text" name = "name" placeholder = "Your Name">*<br>
 		<input type = "text" name = "email" placeholder = "Your E-mail address">*<br>
 		<input type = "text" name = "Subject" placeholder = "Subject">*<br>
 		<textarea placeholder = "Type Message here" ></textarea>*<br>
 		To protect from spam answer 8 + 3 = ? <input type = "text" name = "spamAnswer" >*<br>
 		<input type = "submit" value = "SEND MESSAGE"> 
-	</form>
+	</form> -->
+	<!-- {{> quickForm collection="cEmailForm" id="emailFormTempId" type="insert"}} -->
+	{{#autoForm collection="cEmailForm" id="emailFormTempId" type="insert" doc=this}}
+		<fieldset>
+			{{> afQuickField name="name" placeholder ="Your Name"}}
+			{{> afQuickField name="email_address" placeholder ="Your E-mail Address"}}
+			{{> afQuickField name="subject" placeholder ="Subject"}}
+			{{> afQuickField name="message" rows=5 placeholder ="Type Message Here"}}
+			<div class = "form-group">
+				<div class = "row">
+				<div class = "col-xs-4">	
+				To protect from spam answer 8 + 3 = ? 
+				</div>
+				<div class = "col-xs-8">	
+				<input type = "text" name = "spamAnswer" >*
+				</div>
+				</div>
+			</div>
+		</fieldset>
+		<br>
+		<button type="submit" class="btn btn-primary">Send</button>
+	{{/autoForm}}
+	<div class="clearfix"></div>
+	</div>
 </template>
