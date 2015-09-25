@@ -4,7 +4,8 @@ Router.route('/',{
 	template: 'home', // route "/" to template home.
 	layoutTemplate : 'homePageLayout' // layout template for the home page.
 });
-Router.route('/about');
+Router.route('/aboutMe');
+Router.route('/myJourney');
 Router.route('/contact');
 Router.route('/services');
 Router.route('/press');

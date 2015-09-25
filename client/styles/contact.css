@@ -9,20 +9,28 @@
 	position: relative;
 }
 
+.contactContainerRow2 {
+	margin-bottom: 4%;
+}
+
 .contactDetails {
 	float: left;
 	margin-left: 5%;
 }
 
+.contact-card {
+	border-right: thin solid #eeeeee;
+}
+
 .contactQuoteContainer {
 	/*float: right;*/
 	height: 100%;
-	position: absolute;
+	/*position: absolute;*/
 	padding-top: 3%;
 	padding-left: 2%;
 	border-left: thin solid #eeeeee;
-	margin-left: 25%;
-	margin-right: 5%;
+	/*margin-left: 25%;*/
+	/*margin-right: 5%;*/
 }
 
 .clearfix {
@@ -36,6 +44,58 @@
 	text-align: center;
 }
 
+.contact-card h2 {
+	font-family: DomineBoldFont;
+	font-size: 32px;
+	color: #443266;
+}
+
+.contact-card p {
+	font-family: Source Sans Pro;
+	font-size: 17px;
+	line-height: 28px;
+	color: #443266;
+}
+
+.contactQuoteContainer p {
+	font-family: Times New Roman Italics;
+	font-size: 17px;
+	line-height: 28px;
+	color: #443266;
+}
+
+.contact-image {
+	margin-right: 10%;
+}
+
 .emailFormContainer label{
 	display: none;
 }
+
+.send-email-title {
+	font-family: DomineBoldFont;
+	font-size: 32px;
+	color: #443266;
+}
+
+.sendMailButton {
+	background-color: #443266;
+	font-size: 14px;
+	color: #ffffff;
+	border-radius: 0px;
+    width: 200px;
+    padding: 10px;
+}
+
+#send-email-form-id input, #send-email-form-id textarea {
+	border:	0px;
+	border-radius: 0px;
+	color: #808080;
+	/*font-size: 17px;*/
+	line-height: 28px;
+	background-color: #C7C5C5;
+}
+
+.human-check label {
+	display: block;
+} 

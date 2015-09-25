@@ -87,7 +87,7 @@ hr.homepage_title_underline {
 	background-color: #443266;
 }
 
-#my-nav-bar li.dropdown.open a {
+#my-nav-bar li.dropdown.open a.dropdown-toggle {
 	background-color: #3B2F59 !important;
 	color: #FFFFFF;
 }

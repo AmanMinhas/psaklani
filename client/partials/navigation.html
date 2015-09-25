@@ -19,7 +19,14 @@
                     <img class = "nav_logo_img" src="/img/PSaklani_Logo.png">
                 </li> -->
                 <li class = "{{activeIfTemplateIs 'home' }}" ><a href="/">Home</a></li>
-                <li class = "{{activeIfTemplateIs 'about' }}"><a href="/about">About</a></li>
+                <!-- <li class = "{{activeIfTemplateIs 'about' }}"><a href="/about">About</a></li> -->
+                <li class = "dropdown {{activeIfTemplateIs 'about' }}">
+                    <a data-hover="dropdown" data-toggle="dropdown" class="dropdown-toggle" href="#">About <b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="/aboutMe">About Me</a></li>
+                        <li><a href="/myJourney">My Journey</a></li>
+                    </ul>
+                </li>
                 <li class = "{{activeIfTemplateIs 'services' }}"><a href="/services">My Services</a></li>
                 <li class = "{{activeIfTemplateIs 'tributetocola' }}"><a href="/tributetocola">Tribute to Cola</a></li>
                 <li class = "{{activeIfTemplateIs 'press' }}"><a href="/press">Press</a></li>
