@@ -1,0 +1,20 @@
+<template name = "flowerBgPageLayout">
+	<div class = "flowerBgPageContainer">
+		{{> navigation}}
+			<div class = "row flowerBgPageWrapper">
+				<div class = "left greenForestStrip col-xs-2" >
+					<!-- <img class = "greenForestStripWidth" src = "/img/backgrounds/greenForestBg.png"/> -->
+					<!-- <div style= "clear:both"></div> -->
+				</div>
+				<div class = "yieldAreaBtwnGreen  col-xs-8">
+					{{> yield}}
+					<div style= "clear:both"></div>
+				</div>
+				<div class = "right greenForestStrip  col-xs-2">
+					<!-- <img class = "greenForestStripWidth" src = "/img/backgrounds/greenForestBg.png"/> -->
+					<!-- <div style= "clear:both"></div> -->
+				</div>
+			</div>
+	    {{> footer}}
+	</div>
+</template>

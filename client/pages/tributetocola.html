@@ -9,5 +9,34 @@
 		</div>
 
 		<h3 class ="tribute-to-cola-heading">Cola My Angel</h3>
+		<div class = "cola-slides-div">
+			<div id="tribute-to-cola-carousel" class="carousel slide" data-ride="carousel">
+		        <!-- Carousel indicators -->
+		        <!-- <ol class="carousel-indicators">
+		            <li data-target="#tribute-to-cola-carousel" data-slide-to="0" class="active"></li>
+		            <li data-target="#tribute-to-cola-carousel" data-slide-to="1"></li>
+		            <li data-target="#tribute-to-cola-carousel" data-slide-to="2"></li>
+		            <li data-target="#tribute-to-cola-carousel" data-slide-to="3"></li>
+		        </ol>  -->  
+		        <!-- Wrapper for carousel items -->
+		        <div class="carousel-inner">
+		        	<!-- {{json_homepage_2_carousel_data}} -->
+		        	{{#each json_tributetocola}}
+		        		<div class="item {{active}}">
+							<img class = "carousel_homepage_2_img" src="{{image}}">
+					        <div class="carousel-caption">
+						    </div>
+					    </div>
+		        	{{/each}}
+		        </div>
+		        <!-- Carousel controls -->
+		        <a class="carousel-control left" href="#tribute-to-cola-carousel" data-slide="prev">
+		            <span class="glyphicon glyphicon-chevron-left"></span>
+		        </a>
+		        <a class="carousel-control right" href="#tribute-to-cola-carousel" data-slide="next">
+		            <span class="glyphicon glyphicon-chevron-right"></span>
+		        </a>
+		    </div>
+	    </div>
 	</div>
 </template>

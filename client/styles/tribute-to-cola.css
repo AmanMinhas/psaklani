@@ -13,3 +13,16 @@
 	font-size: 20px;
 	color: #443266;
 }
+
+#tribute-to-cola-carousel .carousel-inner {
+	width: 80%;
+	margin-left: 10%;
+} 
+
+#tribute-to-cola-carousel .carousel-control {
+	background: none;
+}
+
+.cola-slides-div {
+	margin-bottom: 5%;
+} 

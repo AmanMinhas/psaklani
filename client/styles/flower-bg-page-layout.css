@@ -1,0 +1,23 @@
+.yieldAreaBtwnGreen {
+	min-height: 600px;
+}
+
+.flowerBgPageWrapper {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.greenForestStripWidth {
+}
+
+.greenForestStrip {
+	/*background: url('/img/backgrounds/greenForestBg.png') repeat-y;*/
+	/*max-width: 256px;*/
+	background: url('/img/backgrounds/greenForestBg.png') center repeat-x;
+	/*background: url('/img/backgrounds/greenForestBg.png') center ;*/
+	background-size: auto 100%;
+}
+
+.yieldAreaBtwnGreen {
+	float: left;
+}
