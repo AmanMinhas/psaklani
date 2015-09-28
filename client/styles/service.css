@@ -46,7 +46,11 @@
 	width: 900px;
 }
 
+.service-faq-content-question:hover {
+	text-decoration: none;
+}
 .service-faq-content-question {
+	text-decoration: none;
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 30px;
