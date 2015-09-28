@@ -7,7 +7,7 @@ Router.route('/',{
 // Router.route('/aboutMe');
 // Router.route('/myJourney');
 // Router.route('/contact');
-Router.route('/services');
+// Router.route('/service');
 Router.route('/press');
 Router.route('/eventsandworkshop');
 
@@ -39,4 +39,11 @@ Router.route('/tributetocola',{
 
 Router.route('/contact',{
 	layoutTemplate : 'nonHomePageLayout' 
+});
+
+Router.route('/service', {
+	path : 'service/:_slug',
+	data: function() {
+		return cServices.findOne({slug:this.params._slug});
+	}
 });

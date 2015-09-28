@@ -1,0 +1,88 @@
+.service-banner-img {
+	width: 100%;
+}
+
+.service-breadcrumb {
+	/*padding: 0px;*/
+	padding-left: 15px;
+	padding-top: 10px;
+	height: 44px;
+	margin-bottom: 0px;
+}
+
+.service-breadcrumb a {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	/*line-height: 24px;*/
+	color: #808080;
+	padding: 12px;
+}
+
+.services-page-index-div {
+	background: url('/img/backgrounds/servicesGreenStrip.jpg');
+	width: 256px;
+	min-height: 800px;
+	padding-top: 35px;
+	padding-right: 35px;
+	padding-left: 10px;
+} 
+
+.service-faq-index-question-div {
+	margin-bottom: 30px;
+	text-align: right;
+}
+
+.service-faq-index-question {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 17px;
+	line-height: 24px;
+	color: #443266;
+}
+
+.services-faq-content-div {
+	padding: 50px;
+	width: 900px;
+}
+
+.service-faq-content-question {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 30px;
+	color: #443266;
+
+}
+
+.service-faq-content-answer {
+	font-family: Arial;
+	/*font-family: bold;*/
+	font-size: 17px;
+	line-height: 29px;
+	color: #443266;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+@media screen and (max-device-width: 1000px) {
+	.services-faq-content-div {
+		width:600px;
+	}
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+	.services-faq-content-div {
+		width: 900px
+	}
+}
+
+@media screen and (min-device-width: 1800px) {
+	.services-faq-content-div {
+		width: 1500px;
+	}
+}
+
+
+
+
+

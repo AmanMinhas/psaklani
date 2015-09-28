@@ -1,0 +1,32 @@
+<template name = "service">
+	<!-- {{#each services}}
+		{{service_title}}<br>
+	{{/each}} -->
+	<!-- {{service_title}} -->
+	<div class = "service-banner">
+		<img class = "service-banner-img" src = "{{banner_img}}">
+	</div>
+	<div class = "breadcrumb service-breadcrumb">
+		<a href = "/">Home</a> > <a href = "#">My Service</a> > <a href = "/service/{{slug}}">{{service_title}}</a>
+	</div>
+	<div class = "services-content">
+		<div class = "left services-page-index-div">
+			{{#each faqs}}
+				<div class = "right service-faq-index-question-div">
+					<a href = "#{{question}}" class = "service-faq-index-question">{{question}} what is this goes to next line ?</a><br>
+				</div>
+				<div class = "clearfix"></div>
+			{{/each}}
+		</div>
+		<div class = "left services-faq-content-div">
+			{{#each faqs}}
+				<a name = "{{question}}" class = "service-faq-content-question" >{{question}}</a>
+
+				{{#each answer_paragraphs}}
+					<p class = "service-faq-content-answer">{{answer_text}}</p>
+				{{/each}}
+			{{/each}}
+		</div>
+		<div class = "clearfix"></div>
+	</div>
+</template>

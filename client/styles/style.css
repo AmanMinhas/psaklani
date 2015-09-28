@@ -38,6 +38,11 @@ hr.homepage_title_underline {
 }
 
 /*Navigation Start*/
+#my-navbar-nav {
+	padding-top: 13px;
+	padding-bottom: 13px;	
+}
+
 .navbar {
 	border-radius: 0px;
 	border-color: #443266;
@@ -76,11 +81,19 @@ hr.homepage_title_underline {
 }
 
 #my-nav-bar > li > a , .dropdown-menu > li > a {
-	text-align: center;
+	/*text-align: center;*/
 	vertical-align: middle;
 	color: #B5AEC5;
 	font-family: DomineRegularFont;
 	font-size: 16px;
+}
+
+#my-nav-bar > li > a {
+	text-align: center;
+}
+
+.dropdown-menu > li > a {
+	text-align: left;
 }
 
 .dropdown-menu, .dropdown-menu > li {
@@ -347,6 +360,12 @@ p.happy_client_message_by {
 .carousel-control-nav-image {
 	padding-top: 50%;
 }
+
+.glyphicon-chevron-span {
+	position: inherit;
+	top: 45%;
+}
+
 .row-happy-clients-msg{
 	margin: 0px !important;
 }
@@ -355,7 +374,7 @@ p.happy_client_message_by {
 /*End Carousel*/
 /*Page 2 Message*/
 .homepage_2_message_div {
-	min-height: 200px;
+	min-height: 180px;
 	background-color: #443266;
 }
 .homepage_2_message {
@@ -370,7 +389,7 @@ p.happy_client_message_by {
 
 /*Homepage About Me*/
 .homepage_about_me_div {
-	min-height: 600px;
+	min-height: 500px;
 }
 
 .homepage_about_me_heading {
