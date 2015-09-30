@@ -1,5 +1,4 @@
 
-
 Template.home.rendered = function() {
 	//To stick the menu to the bottom of the page till it reaches its actual location at the bottom of the image. Remove the class "navbar-fixed-bottom" once the page is scrolled to appropriate position
 	$(".homepage_1 #my-navbar-nav").addClass("navbar-fixed-bottom");

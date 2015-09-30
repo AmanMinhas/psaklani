@@ -208,6 +208,10 @@ hr.homepage_title_underline {
 	/*max-height: 600px;*/
 }
 
+#myCarousel .carousel-inner .item, #myCarousel .carousel-inner .item img {
+	height: 862px;
+}
+
 .carousel_homepage_2_img {
 	width: 100%;
 	/*max-height: 600px;*/

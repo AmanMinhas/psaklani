@@ -26,3 +26,19 @@
 .cola-slides-div {
 	margin-bottom: 5%;
 } 
+
+.tribute-to-cola-slider-index {
+    /*border: 1px solid black;*/
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 30px;
+    padding: 4px;
+	background-color: #443266;
+    opacity: 0.82;
+}
+
+#tribute-to-cola-carousel .carousel-inner .item, #tribute-to-cola-carousel .carousel-inner .item img {
+	height: 581px;
+}
