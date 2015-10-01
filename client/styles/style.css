@@ -109,6 +109,10 @@ hr.homepage_title_underline {
 	float: none;
 }
 
+#my-navbar-nav li.dropdown ul.dropdown-menu {
+	width: 100%;
+}
+
 .nav_logo_img {
 	height: 100%;
 	/*padding-top: 4%;*/
@@ -302,6 +306,7 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
 
 .glyphicon-chevron-left:before {
     content: url("/img/arrows/arrow_left.png");
+    /*content: url("/img/arrows/arrow_left_hover.png");*/
 }
 
 .glyphicon-chevron-right:before {

@@ -90,6 +90,7 @@ function getReikiForPets() {
 		"service_title" : "Reiki For Pets",
 		"slug"	: "reiki_for_pets",
 		"banner_img"	: "/img/services/reiki_for_pets.jpg",
+		"active"	: "active",
 		"faqs"	: reiki_for_pets_faqs 
 	};
 

@@ -10,6 +10,8 @@ Router.route('/',{
 // Router.route('/service');
 Router.route('/press');
 Router.route('/eventsandworkshop');
+Router.route('/disclaimer');
+Router.route('/privacypolicy');
 
 /*Configure Layouts*/
 Router.configure({
