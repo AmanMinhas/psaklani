@@ -18,4 +18,4 @@ How can i set the navbar to the bottom.
 Make .carousel-caption-button 100%;
 
 marginal scroll on x axis
-..
+....
