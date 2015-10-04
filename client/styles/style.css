@@ -110,7 +110,7 @@ hr.homepage_title_underline {
 }
 
 #my-navbar-nav li.dropdown ul.dropdown-menu {
-	width: 100%;
+	min-width: 100%;
 }
 
 .nav_logo_img {
@@ -212,8 +212,10 @@ hr.homepage_title_underline {
 	/*max-height: 600px;*/
 }
 
-#myCarousel .carousel-inner .item, #myCarousel .carousel-inner .item img {
-	height: 862px;
+@media screen and (min-device-width: 1800px) {
+	#myCarousel .carousel-inner .item, #myCarousel .carousel-inner .item img {
+		height: 862px;
+	}
 }
 
 .carousel_homepage_2_img {

@@ -39,6 +39,22 @@
     opacity: 0.82;
 }
 
-#tribute-to-cola-carousel .carousel-inner .item, #tribute-to-cola-carousel .carousel-inner .item img {
-	height: 581px;
+#tribute-to-cola-carousel .glyphicon-chevron-left {
+	margin-left: -40px;
+}
+
+#tribute-to-cola-carousel .glyphicon-chevron-right {
+	margin-right: -40px;
+}
+
+@media screen and (min-device-width: 1800px) {
+	#tribute-to-cola-carousel .carousel-inner .item, #tribute-to-cola-carousel .carousel-inner .item img {
+		height: 581px;
+	}
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+	#tribute-to-cola-carousel .carousel-inner .item, #tribute-to-cola-carousel .carousel-inner .item img {
+		height: 400px;
+	}
 }

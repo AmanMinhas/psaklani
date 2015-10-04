@@ -7,10 +7,14 @@
 	/*clear: both;*/
 	overflow: hidden;
 	position: relative;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .contactContainerRow2 {
 	margin-bottom: 4%;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .contactDetails {
@@ -65,7 +69,10 @@
 }
 
 .contact-image {
-	margin-right: 10%;
+	padding-top: 6%;
+	text-align: center;
+	/*margin-left: 10%;*/
+	/*margin-right: 10%;*/
 }
 
 .emailFormContainer label{
