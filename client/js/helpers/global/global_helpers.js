@@ -11,20 +11,3 @@ Template.registerHelper('contactInfo',function() {
 
 	return contact;	
 });
-
-Template.registerHelper('recentBlogPosts',function() {
-	recentBlogPosts = [
-		{
-			"blog_title" : "Caring for your pet during the moonsoons",
-			"image_url" : "https://",
-			"blog_link" : "https://",
-		},
-		{
-			"blog_title" : "Blog post 2",
-			"image_url" : "https://",
-			"blog_link" : "https://",
-		}, 
-	];
-
-	return recentBlogPosts;
-});

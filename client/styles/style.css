@@ -391,7 +391,8 @@ p.happy_client_message_by {
 .homepage_2_message {
 	line-height: 44px;
 	font-size: 28px;
-	font-family: Arial;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 3%;
@@ -461,7 +462,8 @@ a.homepage_about_me_know_more {
 }
 
 .footer-content {
-	letter-spacing: 1.2px;
+	/*letter-spacing: 1.2px;*/
+	letter-spacing: 0.2px;
 	margin-top: 15%;
 	margin-left: 30%;
 } 

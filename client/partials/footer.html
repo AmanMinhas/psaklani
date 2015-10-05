@@ -7,7 +7,7 @@
 				<div class = "footer-title">
 					<p>Recent blog Post</p>
 				</div>
-				<div class = "row footer-recent-posts">
+				<!-- <div class = "row footer-recent-posts">
 					<div class = "recent-blog-thumbnail-div left">
 						<img class = "recent-blog-thumbnail" src = "/img/footer_images/dog.jpg">
 					</div>
@@ -21,6 +21,26 @@
 						<img class = "img-circle" src = "img/arrows/arrow_left.png" >
 					</a>
 					<a>
+						<img class = "img-circle" src = "img/arrows/arrow_right.png" >
+					</a>
+				</div> -->
+				<div id="homepageRecentPostsCarousel" class="carousel slide" data-ride="carousel">
+
+			        <div class="row footer-recent-posts">
+			            <!-- Wrapper for carousel items -->
+		                <div class="carousel-inner">
+		                	{{#each recentBlogPosts}}
+		                		{{> footer_recent_blog_post_items}}
+		                	{{/each}} 
+		                </div>
+			        </div>
+			    </div>
+			    <!-- Carousel controls -->
+		        <div class = "recent-posts-nav">
+					<a href="#homepageRecentPostsCarousel" data-slide="prev">
+						<img class = "img-circle" src = "img/arrows/arrow_left.png" >
+					</a>
+					<a href="#homepageRecentPostsCarousel" data-slide="next">
 						<img class = "img-circle" src = "img/arrows/arrow_right.png" >
 					</a>
 				</div>
