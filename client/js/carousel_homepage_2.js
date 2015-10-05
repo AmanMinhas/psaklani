@@ -11,7 +11,7 @@ Template.carousel_homepage_2.helpers({
 				},
 				{
 					"title" : "Reiki for Humans",
-					"image"	: "/img/homepage_images/services-carousel/banner-reiki-for-animals.jpg",
+					"image"	: "/img/homepage_images/services-carousel/banner-reiki-for-humans.jpg",
 					"slug"	: "reiki_for_humans",
 					"active": ""
 				},
