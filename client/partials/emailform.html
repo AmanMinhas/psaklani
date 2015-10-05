@@ -12,7 +12,8 @@
 		<input type = "submit" value = "SEND MESSAGE"> 
 	</form> -->
 	<!-- {{> quickForm collection="cEmailForm" id="emailFormTempId" type="insert"}} -->
-	{{#autoForm collection="cEmailForm" id="send-email-form-id" type="insert" doc=this}}
+	<!-- {{#autoForm collection="cEmailForm" id="send-email-form-id" type="insert" doc=this}} -->
+	{{#autoForm collection="cEmailForm" id="send-email-form-id" doc=this}}
 		<fieldset>
 			{{> afQuickField name="name" placeholder ="Your Name"}}
 			{{> afQuickField name="email_address" placeholder ="Your E-mail Address"}}
@@ -21,16 +22,6 @@
 			<div class = "human-check">
 				{{> afQuickField name="human_check"}}
 			</div>
-			<!-- <div class = "form-group">
-				<div class = "row">
-				<div class = "col-xs-4">	
-				To protect from spam answer 8 + 3 = ? 
-				</div>
-				<div class = "col-xs-8">	
-				<input type = "text" name = "spamAnswer" >*
-				</div>
-				</div>
-			</div> -->
 		</fieldset>
 		<br>
 		<button type="submit" class="btn sendMailButton">SEND MESSAGE</button>

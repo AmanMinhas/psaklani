@@ -88,7 +88,7 @@
 .sendMailButton {
 	background-color: #443266;
 	font-size: 14px;
-	color: #ffffff;
+	color: #ffffff !important;
 	border-radius: 0px;
     width: 200px;
     padding: 10px;

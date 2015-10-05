@@ -7,8 +7,8 @@ Meteor.methods({
 		var reiki_for_humans = getReikiForHumans();
 		cServices.insert(reiki_for_humans);
 
-		var hollistic_life_coaching = getHollisticLifeCoaching();
-		cServices.insert(hollistic_life_coaching);
+		var holistic_life_coaching = getHolisticLifeCoaching();
+		cServices.insert(holistic_life_coaching);
 
 		var essential_oil_therapy = getEssentialOilTherapy();
 		cServices.insert(essential_oil_therapy);
@@ -130,11 +130,11 @@ function getReikiForHumans() {
 }
 
 /*
-*	@desc : function will return json Object with all data for hollistic Life Coaching
+*	@desc : function will return json Object with all data for Holistic Life Coaching
 *	@return : json Object
 */
-function getHollisticLifeCoaching() {
-	var hollistic_life_coaching_faqs = [
+function getHolisticLifeCoaching() {
+	var holistic_life_coaching_faqs = [
 		{
 			"question" : "FAQ Question 1",
 			"answer_paragraphs" : [
@@ -151,14 +151,14 @@ function getHollisticLifeCoaching() {
 		}
 	];
 	
-	var hollistic_life_coaching = {
-		"service_title" : "hollistic Life Coaching",
-		"slug"	: "hollistic_life_coaching",
-		"banner_img"	: "/img/services/hollistic_life_coaching.jpg",
-		"faqs"	: hollistic_life_coaching_faqs 
+	var holistic_life_coaching = {
+		"service_title" : "Holistic Life Coaching",
+		"slug"	: "holistic_life_coaching",
+		"banner_img"	: "/img/services/holistic_life_coaching.jpg",
+		"faqs"	: holistic_life_coaching_faqs 
 	};
 
-	return hollistic_life_coaching;
+	return holistic_life_coaching;
 }
 
 /*

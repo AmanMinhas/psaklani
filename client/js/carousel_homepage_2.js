@@ -12,13 +12,13 @@ Template.carousel_homepage_2.helpers({
 				{
 					"title" : "Reiki for Humans",
 					"image"	: "/img/homepage_images/services-carousel/banner-reiki-for-animals.jpg",
-					"slug"	: "reiki_for_animals",
+					"slug"	: "reiki_for_humans",
 					"active": ""
 				},
 				{
-					"title" : "Hollistic Life Coaching",
-					"image"	: "/img/homepage_images/services-carousel/banner-hollistic-life-coaching.jpg",
-					"slug"	: "hollistic_life_coaching",
+					"title" : "Holistic Life Coaching",
+					"image"	: "/img/homepage_images/services-carousel/banner-holistic-life-coaching.jpg",
+					"slug"	: "holistic_life_coaching",
 					"active": ""
 				},
 				{

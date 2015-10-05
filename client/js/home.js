@@ -10,7 +10,7 @@ Template.home.rendered = function() {
 		var numPageTopPos = $(window).scrollTop();
 		var numPageBottomPos = $(window).scrollTop() + numScreenHeight;
 		
-		console.log("screen height "+ numScreenHeight);
+		// console.log("screen height "+ numScreenHeight);
 		
 		if(numPageBottomPos > numHomepageImageHeight) {
 			$("#homepage_1 #my-navbar-nav").removeClass("navbar-fixed-bottom");

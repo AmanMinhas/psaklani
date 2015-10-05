@@ -5,7 +5,7 @@
 }
 @font-face {
 	font-family: DomineBoldFont,
-	src: url("/fonts/Domine-Bold.eot"); /* For stupid ID */
+	src: url("/fonts/Domine-Bold.eot"); /* For stupid IE */
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 @font-face {
 	font-family: DomineRegularFont,
-	src: url("/fonts/Domine-Regular.eot"); /* For stupid ID */
+	src: url("/fonts/Domine-Regular.eot"); /* For stupid IE */
 }
 /*End Include Fonts*/
 
@@ -84,7 +84,7 @@ hr.homepage_title_underline {
 	/*text-align: center;*/
 	vertical-align: middle;
 	color: #B5AEC5;
-	font-family: DomineRegularFont;
+	font-family: Arial;
 	font-size: 16px;
 }
 
@@ -235,7 +235,7 @@ hr.homepage_title_underline {
 
 .carousel-caption-title {
 	text-decoration: none !important;
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size: 42px;
 	color: #443266;
 	padding-top: 5%;
@@ -260,7 +260,7 @@ hr.homepage_title_underline {
 }
 .carousel-caption-div .carousel-caption-title {
 	text-decoration: none !important;
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size: 42px;
 	color: #443266;
 	padding: 5%;
@@ -278,7 +278,7 @@ hr.homepage_title_underline {
 }
 .carousel-caption-button a{
 	text-decoration: none !important;
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size: 42px;
 	color: #443266;
 }
@@ -293,7 +293,7 @@ hr.homepage_title_underline {
 }
 .carousel-know-more-button a {
 	text-decoration: none !important;
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size: 18px;
 	color: #443266;
 }
@@ -358,7 +358,7 @@ p.happy_client_message {
 
 p.happy_client_message_by {
 	text-align: center;
-	font-family: DomineRegularFont;
+	font-family: Arial;
 	font-size: 18px;
 	color: #443266;
 }
@@ -391,7 +391,7 @@ p.happy_client_message_by {
 .homepage_2_message {
 	line-height: 44px;
 	font-size: 28px;
-	font-family: DomineRegularFont;
+	font-family: Arial;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 3%;
@@ -406,7 +406,7 @@ p.happy_client_message_by {
 .homepage_about_me_heading {
 	margin-top: 4%;
 	text-align: center;
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size: 30px;
 	color: #443266;
 }
@@ -418,13 +418,13 @@ p.happy_client_message_by {
 p.homepage_about_me_overview {
 	margin-top: 3%;
 	line-height: 32px;
-	font-family: DomineRegularFont;
+	font-family: Arial;
 	font-size: 18px;
 	color: #443266;
 }
 
 a.homepage_about_me_know_more {
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size: 18px;
 	color: #443266;
 }
@@ -444,7 +444,7 @@ a.homepage_about_me_know_more {
 .homepage_happy_client_heading {
 	padding-top: 3.5%;
 	text-align: center;
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size: 30px;
 	color: #443266;
 }
@@ -467,7 +467,7 @@ a.homepage_about_me_know_more {
 } 
 
 .footer-title p {
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;;
 	font-size : 21px;
 	color: #FFFFFF;
 }
@@ -491,7 +491,7 @@ a.homepage_about_me_know_more {
 } 
 
 .recent-blog-title, .footer-contact-card p, .req-session-btn p, .req-session-btn p a {
-	font-family: DomineRegularFont;
+	font-family: Arial;
 	color: #c4bdd1;
 	font-size: 16px;
 	line-height: 20px;
@@ -500,7 +500,7 @@ a.homepage_about_me_know_more {
 .recent-blog-read-more {
 	position: absolute;
 	bottom: -4px;
-	font-family: DomineRegularFont;
+	font-family: Arial;
 	color: #c4bdd1;
 	font-size: 16px;
 	text-decoration: underline;
@@ -606,7 +606,7 @@ a.homepage_about_me_know_more {
 }
 
 .copyright-bar-div p, .copyright-bar-div p a {
-	font-family: DomineRegularFont;
+	font-family: Arial;
 	color: #c4bdd1;
 	font-size: 13px;
 }
