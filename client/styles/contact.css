@@ -76,6 +76,10 @@
 	/*margin-right: 10%;*/
 }
 
+#email-sent-success-id {
+	display: none;
+}
+
 .emailFormContainer label{
 	display: none;
 }

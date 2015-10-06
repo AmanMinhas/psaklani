@@ -1,4 +1,12 @@
 Meteor.methods({
+
+	contactPSaklani : function(from,subject,text) {
+		check([from, subject, text], [String]);
+		oCredentials = Meteor.call('getEmailCredentials');
+	 	Meteor.call('sendEmail',oCredentials.email,from,subject,text);
+
+	},
+
 	sendEmail : function(to,from,subject,text) {
 		
 		check([to, from, subject, text], [String]);
@@ -9,10 +17,17 @@ Meteor.methods({
 
 		Email.send({
 			to: to,
-			// from: "no-reply@yourdomain.com",
 			from: from,
+			replyTo: from, 
 			subject: subject,
 			text: text
 		});
+
+	},
+
+	getEmailCredentials : function() {
+		var oCredentials = {};
+  		oCredentials = JSON.parse(Assets.getText("emailData.json"));
+  		return oCredentials;
 	}
 });

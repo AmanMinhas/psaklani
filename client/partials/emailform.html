@@ -14,11 +14,14 @@
 	<!-- {{> quickForm collection="cEmailForm" id="emailFormTempId" type="insert"}} -->
 	<!-- {{#autoForm collection="cEmailForm" id="send-email-form-id" type="insert" doc=this}} -->
 	{{#autoForm collection="cEmailForm" id="send-email-form-id" doc=this}}
+		<div id = "email-sent-success-id" class = "alert alert-success" role="alert">
+			<b>Thank You!</b> Email sent.
+		</div>
 		<fieldset>
-			{{> afQuickField name="name" placeholder ="Your Name"}}
-			{{> afQuickField name="email_address" placeholder ="Your E-mail Address"}}
-			{{> afQuickField name="subject" placeholder ="Subject"}}
-			{{> afQuickField name="message" rows=5 placeholder ="Type Message Here"}}
+			{{> afQuickField name="name" placeholder ="Your Name *"}}
+			{{> afQuickField name="email_address" placeholder ="Your E-mail Address *"}}
+			{{> afQuickField name="subject" placeholder ="Subject *"}}
+			{{> afQuickField name="message" rows=5 placeholder ="Type Message Here *"}}
 			<div class = "human-check">
 				{{> afQuickField name="human_check"}}
 			</div>

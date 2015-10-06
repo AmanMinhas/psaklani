@@ -16,10 +16,17 @@ Meteor.methods({
 			}
 			
 			$(".greenForestStrip").css("height",numGreenForestStripHeight);
-		}
-
-		if(mqLaptopScreen.matches) {
+		
+		} else if(mqLaptopScreen.matches) {
 			console.log("this is mqLaptopScreen");
+			switch(strTemplateName) {
+				case 'aboutMe' : numGreenForestStripHeight = 2000; break;
+				case 'myJourney' : numGreenForestStripHeight = 2880; break;
+				case 'tributetocola' : numGreenForestStripHeight = 850; break;
+				// default	: numGreenForestStripHeight = 0; break;
+			}
+			
+			$(".greenForestStrip").css("height",numGreenForestStripHeight);
 		}
 	}	
 });

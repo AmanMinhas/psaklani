@@ -1,8 +1,9 @@
 Meteor.startup(function () {	
   var oCredentials = {};
-  oCredentials = JSON.parse(Assets.getText("data.json"));
   
-  smtp = {
+  oCredentials = Meteor.call('getEmailCredentials');
+
+  smtp = {	
     username  : oCredentials.email,   
     password  : oCredentials.password,   
     server    : 'smtp.gmail.com', 
