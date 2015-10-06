@@ -5,7 +5,7 @@
 .tribute-to-cola-heading {
 	margin-top: 4%;
 	text-align: center;
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;
 	font-size: 32px;
 	color: #443266;
 }
@@ -13,7 +13,7 @@
 .tribute-to-cola-message {
 	margin-top: 3%;
 	line-height: 34px;
-	font-family: DomineRegularFont;
+	font-family: Arial; 
 	font-size: 20px;
 	color: #443266;
 }

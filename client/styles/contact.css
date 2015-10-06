@@ -49,7 +49,7 @@
 }
 
 .contact-card h2 {
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;
 	font-size: 32px;
 	color: #443266;
 }
@@ -62,7 +62,8 @@
 }
 
 .contactQuoteContainer p {
-	font-family: Times New Roman Italics;
+	font-family: "Times New Roman";
+	font-style: italic;
 	font-size: 17px;
 	line-height: 28px;
 	color: #443266;
@@ -80,7 +81,7 @@
 }
 
 .send-email-title {
-	font-family: DomineBoldFont;
+	font-family: Arial; font-weight: bold;
 	font-size: 32px;
 	color: #443266;
 }

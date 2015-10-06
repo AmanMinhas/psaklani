@@ -9,7 +9,8 @@ Meteor.methods({
 
 		Email.send({
 			to: to,
-			from: "no-reply@yourdomain.com",
+			// from: "no-reply@yourdomain.com",
+			from: from,
 			subject: subject,
 			text: text
 		});

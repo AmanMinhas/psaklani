@@ -9,8 +9,8 @@ Meteor.methods({
 			console.log("this is mqDesktopScreen");
 
 			switch(strTemplateName) {
-				case 'aboutMe' : numGreenForestStripHeight = 1550; break;
-				case 'myJourney' : numGreenForestStripHeight = 2400; break;
+				case 'aboutMe' : numGreenForestStripHeight = 1570; break;
+				case 'myJourney' : numGreenForestStripHeight = 2530; break;
 				case 'tributetocola' : numGreenForestStripHeight = 1000; break;
 				default	: numGreenForestStripHeight = 0; break;
 			}
