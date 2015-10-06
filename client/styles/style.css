@@ -85,7 +85,7 @@ hr.homepage_title_underline {
 	vertical-align: middle;
 	color: #B5AEC5;
 	font-family: Arial;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 #my-nav-bar > li > a {
@@ -432,6 +432,12 @@ a.homepage_about_me_know_more {
 	font-family: Arial; font-weight: bold;;
 	font-size: 18px;
 	color: #443266;
+}
+
+@media screen and (max-device-width: 800px) { /*For Mobile*/
+	.homepage_about_me_overview_container {
+		text-align: center;
+	}
 }
 /*End Homepage About Me*/
 
