@@ -27,6 +27,8 @@ Meteor.methods({
 			}
 			
 			$(".greenForestStrip").css("height",numGreenForestStripHeight);
+		} else {
+			$(".greenForestStrip").css("height",0);
 		}
 	}	
 });

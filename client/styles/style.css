@@ -416,6 +416,10 @@ p.happy_client_message_by {
 	margin-top: 4%;
 }
 
+.homepage-about-me-img-container {
+	text-align: center;
+}
+
 p.homepage_about_me_overview {
 	margin-top: 3%;
 	line-height: 32px;
@@ -514,6 +518,11 @@ a.homepage_about_me_know_more {
 .recent-blog-thumbnail-div {
 	width: 20%;
 }
+
+.recent-posts-nav {
+	padding-top: 10px;
+}
+
 .req-session-btn {
 	width: 60%;
 }
