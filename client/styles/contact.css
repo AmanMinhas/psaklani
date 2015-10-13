@@ -76,6 +76,10 @@
 	/*margin-right: 10%;*/
 }
 
+.contact-image img{
+	width: 30%;
+}
+
 #email-sent-success-id {
 	display: none;
 }

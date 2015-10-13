@@ -6,10 +6,12 @@ Template.home.rendered = function() {
 	$(window).scroll(function(){
 		var numScreenHeight = $(window).height();
 		var numHomepageImageHeight = $("#homepage_1").height();
+		var numNavHeight = $(".homepage_1_nav_bottom").height();
 
 		var numPageTopPos = $(window).scrollTop();
 		var numPageBottomPos = $(window).scrollTop() + numScreenHeight;
 		
+		var numNavTopPos = numHomepageImageHeight - numNavHeight;
 		// console.log("screen height "+ numScreenHeight);
 		
 		if(numPageBottomPos > numHomepageImageHeight) {
@@ -17,5 +19,12 @@ Template.home.rendered = function() {
 		} else {
 			$("#homepage_1 #my-navbar-nav").addClass("navbar-fixed-bottom");
 		}
+
+		if(numPageTopPos >= numNavTopPos ) {
+			$("#homepage_1 #my-navbar-nav").addClass("navbar-fixed-top");
+		} else {
+			$("#homepage_1 #my-navbar-nav").removeClass("navbar-fixed-top");
+		}
+
 	});
 }
