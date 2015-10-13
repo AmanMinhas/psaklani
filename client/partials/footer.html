@@ -36,9 +36,8 @@
 			        </div>
 			    </div>
 
-			    {{recentBlogPosts.length}}
-			    {{#if 1 = 1 }}
-			    <!-- {{#if recentBlogPosts.length > 1 }} -->
+			    {{isRecentBlogPostsMoreThanOne}}
+			    {{#if isRecentBlogPostsMoreThanOne}}
 			    <!-- Carousel controls -->
 		        <div class = "recent-posts-nav">
 					<a href="#homepageRecentPostsCarousel" data-slide="prev">
@@ -91,10 +90,10 @@
 		</div>
 		<div class = "col-xs-4 right copyright-bar-div copyright-bar-social-div">
 			<div class = "footer-social-icon-div">
-				<a href= ""><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_Twitter.png" ></a>
-				<a href= ""><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_FB.png" ></a>
-				<a href= ""><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_Blog.png" ></a>
-				<a href= ""><img class = "right footer-social-icon" src = "/img/homepage_images/social-icons/Icon_LinkedIn.png" ></a>
+				<a target = "_blank" href= "{{contactInfo.twitter_link}}"><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_Twitter.png" ></a>
+				<a target = "_blank" href= "{{contactInfo.facebook_link}}"><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_FB.png" ></a>
+				<a target = "_blank" href= "{{contactInfo.blog_link}}"><img class = "right footer-social-icon"  src = "/img/homepage_images/social-icons/Icon_Blog.png" ></a>
+				<a target = "_blank" href= "{{contactInfo.linkedin_link}}"><img class = "right footer-social-icon" src = "/img/homepage_images/social-icons/Icon_LinkedIn.png" ></a>
 			</div>
 		</div>
 	</div>

@@ -18,6 +18,10 @@
 }
 /*End Include Fonts*/
 
+/*a:visited {
+	color: inherit;
+}*/
+
 .clear {
 	clear: both;
 }
@@ -513,7 +517,7 @@ a.homepage_about_me_know_more {
 	position: absolute;
 	bottom: -4px;
 	font-family: Arial;
-	color: #c4bdd1;
+	color: #c4bdd1 !important;
 	font-size: 16px;
 	text-decoration: underline;
 }
