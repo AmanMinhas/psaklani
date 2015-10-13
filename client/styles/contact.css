@@ -80,6 +80,13 @@
 	width: 30%;
 }
 
+/*Laptop screens*/
+@media screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+	.contact-image img{
+		width: 50%;
+	}	
+}
+
 #email-sent-success-id {
 	display: none;
 }

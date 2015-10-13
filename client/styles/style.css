@@ -537,6 +537,7 @@ a.homepage_about_me_know_more {
 	width: 60%;
 }
 
+/*Monitor*/
 @media screen and (min-device-width: 1800px) {
 	.recent-blog-thumbnail-div {
 		width: 20%;
@@ -546,6 +547,7 @@ a.homepage_about_me_know_more {
 	}
 }
 
+/*Laptop Screen*/
 @media screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
 	.footer-row {
 		min-height: 390px;
